@@ -15,7 +15,7 @@ public class NewTest {
   public void f() throws InterruptedException {
  //WebDriver driver = new HtmlUnitDriver();
 	  
-	  System.setProperty("webdriver.chrome.driver", "D:\\salesforceSelenium\\BasicDemo\\WebDrivers\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "\WebDrivers\chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
  driver.get("https://litdev-dev-ed.my.salesforce.com");
  Thread.sleep(2000);
