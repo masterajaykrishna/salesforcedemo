@@ -33,6 +33,6 @@ public class NewTest {
  Thread.sleep(3000);
  
  
-  Assert.assertEquals("Verify Your Identity | Salesforce", driver.getTitle());
+  Assert.assertEquals("Salesforce - Developer Edition", driver.getTitle());
   }
 }
